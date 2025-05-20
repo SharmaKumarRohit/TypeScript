@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Theme Switcher</title>
+    <style>
+      body {
+        transition: all 0.3s ease-in;
+      }
+      body.light {
+        background-color: #f9f9f9;
+        color: #333;
+      }
+
+      body.dark {
+        background-color: #1e1e1e;
+        color: #fff;
+      }
+
+      button {
+        margin: 2rem;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+      }
+    </style>
+  </head>
+  <body class="light">
+    <button id="themeToggle">Switch to Dark Theme</button>
+    <script src="DomHandling.js"></script>
+  </body>
+</html>
