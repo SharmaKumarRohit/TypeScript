@@ -1,0 +1,8 @@
+How to setup and install typescript locally
+npm init -y
+npm install typescript --save-dev
+npx tsc --init // this command creates ts config file
+npx tsc // compile the ts code to js code
+npx tsc --watch // Also use this command to compile ts code automatically after save the code
+
+typescript with react doc resources, follow this link - https://medium.com/womenintechnology/mastering-react-with-typescript-its-benefits-and-importance-85cbc783a85a
